@@ -27,7 +27,7 @@ public class VerifyInvalidLoginTest extends Base {
 			Assert.assertEquals(errMsg, expErrMsg);
 
 			//myAcc.signOut();
-
+			//make some changes after R1.1
 		}
 	}
 }
