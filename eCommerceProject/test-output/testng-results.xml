@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23122" started-at="2020-11-09T02:33:14Z" finished-at="2020-11-09T02:33:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21548" started-at="2020-11-09T02:33:14Z" finished-at="2020-11-09T02:33:36Z">
+      <class name="com.automationpractice.TestScripts.VerifyLogOffTest">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:com.automationpractice.TestScripts.VerifyLogOffTest@14acaea5]" name="openApplication" is-config="true" duration-ms="15216" started-at="2020-11-08T21:33:14Z" finished-at="2020-11-08T21:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyLogOff()[pri:0, instance:com.automationpractice.TestScripts.VerifyLogOffTest@14acaea5]" name="verifyLogOff" duration-ms="5662" started-at="2020-11-08T21:33:30Z" finished-at="2020-11-08T21:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOff -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.automationpractice.TestScripts.VerifyLogOffTest@14acaea5]" name="closeApplication" is-config="true" duration-ms="653" started-at="2020-11-08T21:33:35Z" finished-at="2020-11-08T21:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.automationpractice.TestScripts.VerifyLogOffTest -->
+    </test> <!-- Test -->
+    <test name="FirefoxTest" duration-ms="23122" started-at="2020-11-09T02:33:14Z" finished-at="2020-11-09T02:33:37Z">
+      <class name="com.automationpractice.TestScripts.VerifyLogOffTest">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:com.automationpractice.TestScripts.VerifyLogOffTest@91161c7]" name="openApplication" is-config="true" duration-ms="13480" started-at="2020-11-08T21:33:14Z" finished-at="2020-11-08T21:33:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyLogOff()[pri:0, instance:com.automationpractice.TestScripts.VerifyLogOffTest@91161c7]" name="verifyLogOff" duration-ms="6157" started-at="2020-11-08T21:33:28Z" finished-at="2020-11-08T21:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOff -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.automationpractice.TestScripts.VerifyLogOffTest@91161c7]" name="closeApplication" is-config="true" duration-ms="3457" started-at="2020-11-08T21:33:34Z" finished-at="2020-11-08T21:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.automationpractice.TestScripts.VerifyLogOffTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

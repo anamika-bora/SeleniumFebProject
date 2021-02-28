@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	 <test thread-count="5" name="Test">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.automationpractice.TestScripts.VerifyLogOffTest" />
+			<!-- <class name="com.automationpractice.TestScripts.VerifyInvalidLoginTest" />
+			<class name="com.automationpractice.TestScripts.VerifyInvalidZipCodeTest" />
+			<class
+				name="com.automationpractice.TestScripts.VerifyCountryFieldBlankTest" />
+			<class name="com.automationpractice.TestScripts.ShareProductTest" />
+			<class name="com.automationpractice.TestScripts.VerifyValidLoginTest" />
+			<class name="com.automationpractice.TestScripts.VerifyCreateAccountTest" />-->
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="FirefoxTest">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="com.automationpractice.TestScripts.VerifyLogOffTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
